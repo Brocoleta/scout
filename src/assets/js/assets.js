@@ -1,0 +1,14 @@
+import '../images/logo.png';
+import '../images/800px-olympic_flag.svg_1.png';
+import '../images/kutralku.jpg';
+import '../images/caparazon_azul.jpg';
+import '../images/saltador.jpg';
+import '../images/rick.jpg';
+import '../images/dado.jpg';
+import '../images/resorte.png';
+import '../images/cantar.jpg';
+import '../images/uno_o_otro.jpg';
+import '../images/ultimo_lugar.jpg';
+import '../images/susurrando.jpg';
+import '../images/caparazon_rojo.jpg';
+import '../images/tarde.jpg';

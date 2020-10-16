@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<head>
+    <title>RAMBO SCOUT 2020</title>
+</head>
+
+
+<body>
+<div class="header_1">
+    <% if (random==1) { %> 
+    <img src="<%= assetPath('rick.jpg') %>" alt="">
+    <h3>Oh! Te has encontrado esta misteriosa pistola, cambias de posicion con el subsiguiente</h3>
+    <a href="<%= volverPath %> ">Volver</a>
+    <% } else if (random==2) { %>
+    <img src="<%= assetPath('800px-olympic_flag.svg_1.png') %>" alt="">
+    <h3>Te encuentras en el dia olimpico!!, saquense la polera y avancen con toda la garra al siguiente espacio!</h3>
+    <a href="<%= volverPath %> ">Volver</a>
+    <% } else if (random==3) { %>
+    <img src="<%= assetPath('kutralku.jpg') %>" alt="">
+    <h3>Querido pionero: Tienes la suerte de que te ha tocado ser el maldito KUTRALKU, puedes desarmarle la carpa a alguien y retrocedera 1 espacio</h3>
+    <a href="<%= volverPath %> ">Volver</a>
+    <% } else if (random==4) { %> 
+    <img src="<%= assetPath('caparazon_azul.jpg') %>" alt="">
+    <h3>Oh si! El maldito caparazón azul del Mario Kart, has retroceder al primero 2 espacios</h3>
+    <a href="<%= volverPath %> ">Volver</a>
+    <% } else if (random==5) { %>
+    <img src="<%= assetPath('saltador.jpg') %>" alt="">
+    <h3>Felicitaciones Lobato!! Has sacado saltador!!! Saltas al proximo espacio!!</h3>
+    <a href="<%= volverPath %> ">Volver</a>
+    <% } else if (random==6) { %>  
+    <img src="<%= assetPath('resorte.png') %>" alt="">
+    <h3>Te encontraste con un resorte que al pisarlo te mando dos casillas hacia adelante, ¡Guau que suerte!</h3>
+    <a href="<%= volverPath %> ">Volver</a>  
+    <% } %> 
+    
+</div>
+
+</body>

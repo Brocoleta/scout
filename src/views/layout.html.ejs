@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>RAMBO SCOUT 2020</title>
+    <% if (env !== 'development') { %>
+      <link rel="stylesheet" href="<%= assetPath('app.css') %>">
+    <% } %>
+  </head>
+
+  <body>
+    <header>
+
+      <h1>RAMBO SCOUT 2020</h1>
+    </header>
+    <%- body %>
+    <script src="<%= assetPath('app.js') %>"></script>
+  </body>
+
+</html>
